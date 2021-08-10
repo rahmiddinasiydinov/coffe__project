@@ -1,0 +1,127 @@
+.headquarters{
+    &__wrapper{
+        margin-top: 144px;
+        
+    }
+    &__header{
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &__list{
+        margin-top: 72px;
+        display: flex;
+    }
+    &__item{ 
+        width: 285px;
+        max-width: 100%;
+        margin-right: 95px;
+        
+    }
+    &__sub-header{
+        margin-top: 45px;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+    &__sub-list{
+        margin-top: 24px;
+        
+    }
+    &__sub-item{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+@media only screen and (max-width:768px){
+    .headquarters{
+        &__wrapper{
+            margin-top: 144px;
+            
+        }
+        &__header{
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+        }
+        &__list{
+            margin-top: 72px;
+            display: flex;
+        }
+        &__item{ 
+            width: 223px;
+            max-width: 100%;
+            margin-right: 10px;
+            
+        }
+        &__sub-header{
+            margin-top: 45px;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        &__sub-list{
+            margin-top: 21px;
+            
+        }
+        &__sub-item{
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 26px;
+            color: #333D4B;
+        }
+    } 
+}
+@media only screen and (max-width:376px){
+    .headquarters{
+        &__wrapper{
+            margin-top: 120px;
+            
+        }
+        &__header{
+            text-align: center;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+        }
+        &__list{
+            margin-top: 72px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item{ 
+            text-align: center;
+            width: 223px;
+            max-width: 100%;
+            margin-right: 0;
+            margin-bottom: 80px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            
+        }
+        &__sub-header{
+            margin-top: 47px;
+            font-size: 28px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        &__sub-list{
+            margin-top: 22px;
+            
+        }
+        &__sub-item{
+            font-family: Barlow;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 26px;
+            color: #333D4B;
+        }
+    } 
+}
