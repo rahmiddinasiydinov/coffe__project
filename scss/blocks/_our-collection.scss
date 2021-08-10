@@ -1,0 +1,131 @@
+.our-collection{
+    margin-top: 136px;
+
+     
+    &__header{
+        font-family: Fraunces 9pt;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 150px;
+        text-align: center;
+        color: #83888F;
+        background: linear-gradient(0deg, rgba(15, 15, 15, 0) 0%, #d0cfc7 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    &__list{
+        transform: translateY(-88px);
+        display: flex;
+        justify-content: center;
+    
+        
+    }
+    &__item{
+        max-width: 255px; 
+        text-align: center;
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__sub-header{
+        margin: 71px 0 24px;
+        font-size: 24px;
+        line-height: 32px;
+    
+        color: #333D4B;  
+    }
+    &__img{
+        &:last-child{
+            transform: translateY(-10%);
+        }
+    }
+    &__sub-text{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+    }
+}
+@media only screen and (max-width:768px){
+    .our-collection{
+        &__header{
+            font-size: 90px;
+        }
+        &__item{
+            display: flex;
+            align-items: center;
+            margin-bottom: 32px;
+
+        }
+        &__img{
+            display: block;
+            transform: translateY(20%);
+        }
+        &__list{
+            flex-direction: column;
+            justify-content: center;
+    
+            transform: translateY(-11%);
+   
+        }
+        &__text{
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            // margin-left:36px ;
+            height: 192px;
+
+     
+        }
+        &__sub-text{
+            width: 282px;
+            text-align: left;
+        }
+
+    }
+}
+@media only screen and (max-width:376px){
+    .our-collection{
+        margin-top: 120px;
+        &__header{
+            font-size: 40px;
+        }
+        &__item{
+            display: flex;
+            flex-direction: column;
+            margin-right: 0;
+            align-items: center;
+            margin-bottom: 32px;
+
+        }
+        &__img{
+            display: block;
+            transform: translateY(20%);
+        }
+        &__list{
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            transform: translateY(0);
+   
+        }
+        &__text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            margin-left: 0;
+            height: 192px;
+
+     
+        }
+        &__sub-text{
+            width: 282px;
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+}
