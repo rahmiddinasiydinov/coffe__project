@@ -189,7 +189,19 @@
                             <p class="summary__text">“I drink my coffee as <span class="summary__chosen">Filter</span>, with a <span class="summary__chosen">Decaf</span> type of bean. <span class="summary__chosen">250g</span> ground ala <span class="summary__chosen">Cafetiare</span>, sent to me <span class="summary__chosen">Every Week.</span>”</p>
                         </li>
                         <li>
-                            <button class="summary__btn">Create my plan!</button>
+                            <input id="modal" type="checkbox">
+                            <label for="modal" class="summary__btn">Create my plan!</label>
+                            <div class="modal">
+                                <div class="modal__wrapper">
+                                    <h4 class="modal__header">Order Summary <label for="modal" class="modal__exit">X</label></h4>
+                                    <p class="summary__text modal__chosen">“I drink my coffee as <span class="summary__chosen">Filter</span>, with a <span class="summary__chosen">Decaf</span> type of bean. <span class="summary__chosen">250g</span> ground ala <span class="summary__chosen">Cafetiare</span>, sent to me <span class="summary__chosen">Every Week.</span>”</p>
+                                    <p class="modal__text">Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+                                    <div class="modal__pay">
+                                        <span class="modal__price">$14.00 / mo</span>
+                                        <button class="modal__btn">Checkout <span class="btn_phone">-$14.00 / mo</span></button>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
