@@ -1,0 +1,100 @@
+.summary{
+    margin-top: 88px;
+    &__wrapper{
+        padding:31px 64px 0;
+        max-width: 730px;
+        height: 208px;
+        border-radius: 10px;
+        background-color: #2C343E;
+        
+    }
+    &__header{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    &__text{
+        margin-top: 8px;
+        font-family: Fraunces;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    &__chosen{
+        color: #0E8784;
+    }
+    &__btn{
+        margin-top: 40px;
+        @include btns;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width:768px){
+    .summary{
+        margin-top: 144px;
+        &__wrapper{
+            padding:31px 44px 0;
+            max-width: 689px;
+            height: 208px;    
+        }
+        &__header{
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &__text{
+            margin-top: 8px;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+        &__chosen{
+            color: #0E8784;
+        }
+        &__btn{
+            @include btns;
+            margin: auto;
+            margin-top: 40px;
+        }
+    }   
+}
+@media only screen and (max-width:376px){
+    .summary{
+        margin-top: 120px;
+        &__wrapper{
+            padding:32px 25px 0;
+            max-width: 328px;
+            height: 338px;    
+        }
+        &__header{
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            opacity: 0.5;
+        }
+        &__text{
+            margin-top: 8px;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+        &__chosen{
+            color: #0E8784;
+        }
+        &__btn{
+            @include btns;
+            margin: auto;
+            margin-top: 40px;
+        }
+    }   
+}
