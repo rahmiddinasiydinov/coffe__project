@@ -1396,4 +1396,77 @@ ul {
     color: #333D4B;
   }
 }
+
+.plan__wrapper {
+  margin-top: 48px;
+  max-width: 1280px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 134px 0 0 85px;
+  background-image: url("../images/plan__desktop.png");
+}
+
+.plan__header {
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.plan__text {
+  margin-top: 32px;
+  max-width: 445px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .plan__wrapper {
+    margin-top: 58px;
+    max-width: 689px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 127px 0 0 58px;
+    background-image: url("../images/plan__tablet.jpg");
+  }
+  .plan__header {
+    font-size: 48px;
+    line-height: 48px;
+    color: #FEFCF7;
+  }
+  .plan__text {
+    margin-top: 24px;
+    max-width: 398px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .plan__wrapper {
+    margin-top: 41px;
+    max-width: 327px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 101px 20px 0;
+    text-align: center;
+    background-image: url("../images/plan__phone.jpg");
+  }
+  .plan__header {
+    font-size: 38px;
+    line-height: 40px;
+    color: #FEFCF7;
+  }
+  .plan__text {
+    margin-top: 22px;
+    max-width: 279px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+}
 /*# sourceMappingURL=main.css.map */
